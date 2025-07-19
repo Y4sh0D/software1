@@ -1,0 +1,10 @@
+<?php 
+	session_start();
+	unset($_SESSION['param_idmedico']);
+	unset($_SESSION['param_idusuario']);
+	unset($_SESSION['param_usuario']);
+	unset($_SESSION['param_apellidos']);
+	unset($_SESSION['param_nombres']);
+	unset($_SESSION['param_rol']);
+	session_destroy();
+?>
